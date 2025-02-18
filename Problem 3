@@ -1,0 +1,10 @@
+#Joselin Weisz
+#2/17/25
+#3: Use random.choice to select a day of the week from a list and print that day.
+
+import random
+
+days_of_week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+random_day = random.choice(days_of_week)
+
+print(random_day)
